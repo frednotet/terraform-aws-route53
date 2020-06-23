@@ -1,5 +1,6 @@
 variable "domain_name" {
-  type = "string"
+  description = "The domain name that will be configured as a zone"
+  type = string
   default = ""
 }
 
